@@ -36,9 +36,16 @@ export class CognitoPasswordlessClient {
       set: (
         name: string,
         value: string,
-        options?: CookieSerializeOptions
+        options?: CookieSerializeOptions & {
+          path: string
+        }
       ) => void
-      delete: (name: string, options?: CookieSerializeOptions) => void
+      delete: (
+        name: string,
+        options?: CookieSerializeOptions & {
+          path: string
+        }
+      ) => void
       get: (name: string) => string | undefined
     }
   ) {
@@ -85,10 +92,10 @@ export class CognitoPasswordlessClient {
     const { AccessToken, RefreshToken, IdToken, ExpiresIn } =
       AuthenticationResult ?? {}
 
-    const cookieOptions: CookieSerializeOptions = {
+    const cookieOptions = {
       httpOnly: true,
       secure: true,
-      sameSite: 'lax',
+      sameSite: 'lax' as const,
       maxAge: ExpiresIn,
       path: '/'
     }
@@ -253,7 +260,7 @@ export class CognitoPasswordlessClient {
       )
     )
 
-    const cookie_options: CookieSerializeOptions = {
+    const cookie_options = {
       path: '/'
     }
 
