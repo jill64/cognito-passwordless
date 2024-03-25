@@ -36,13 +36,13 @@ export class CognitoPasswordlessClient {
       set: (
         name: string,
         value: string,
-        options?: CookieSerializeOptions & {
+        options: CookieSerializeOptions & {
           path: string
         }
       ) => void
       delete: (
         name: string,
-        options?: CookieSerializeOptions & {
+        options: CookieSerializeOptions & {
           path: string
         }
       ) => void
