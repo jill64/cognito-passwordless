@@ -60,5 +60,8 @@
     "cdk",
     "cognito",
     "passwordless"
-  ]
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
 }
