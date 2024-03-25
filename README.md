@@ -1,2 +1,2 @@
-# cognito-passwordless
-🔑 Passwordless authentication for AWS Cognito
+<!----- BEGIN GHOST DOCS HEADER ----->
+<!----- END GHOST DOCS HEADER ----->

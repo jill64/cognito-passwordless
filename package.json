@@ -1,0 +1,44 @@
+{
+  "name": "cognito-passwordless",
+  "description": "",
+  "version": "0.0.1",
+  "type": "module",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    "./frontend": {
+      "types": "./dist/frontend/index.d.ts",
+      "default": "./dist/frontend/index.js"
+    },
+    "./backend": {
+      "types": "./dist/backend/index.d.ts",
+      "default": "./dist/backend/index.js"
+    },
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc && npx publint",
+    "prepack": "npm run build",
+    "test": "vitest",
+    "lint": "npx eslint . && npx depcheck",
+    "format": "npx prettier -w ."
+  },
+  "prettier": "@jill64/prettier-config",
+  "devDependencies": {
+    "@jill64/eslint-config-ts": "1.1.13",
+    "@jill64/prettier-config": "1.0.0",
+    "typescript": "5.4.3"
+  },
+  "dependencies": {
+    "@aws-sdk/client-cognito-identity-provider": "3.540.0",
+    "@jill64/attempt": "1.1.2",
+    "@types/cookie": "0.6.0",
+    "@types/node": "20.11.30",
+    "typescanner": "^0.5.3"
+  }
+}
