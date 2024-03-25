@@ -1,5 +1,5 @@
 {
-  "name": "cognito-passwordless",
+  "name": "@jill64/cognito-passwordless",
   "description": "🔑 Passwordless authentication for AWS Cognito",
   "version": "0.0.2",
   "type": "module",
