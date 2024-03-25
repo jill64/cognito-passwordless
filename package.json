@@ -33,14 +33,14 @@
   },
   "dependencies": {
     "@aws-sdk/client-cognito-identity-provider": "3.540.0",
-    "@aws-sdk/client-ses": "^3.540.0",
+    "@aws-sdk/client-ses": "3.540.0",
     "@jill64/attempt": "1.1.2",
     "@types/cookie": "0.6.0",
     "@types/node": "20.11.30",
-    "aws-cdk-lib": "^2.133.0",
-    "constructs": "^10.3.0",
-    "nanoid": "^5.0.6",
-    "typescanner": "^0.5.3"
+    "aws-cdk-lib": "2.133.0",
+    "constructs": "10.3.0",
+    "nanoid": "5.0.6",
+    "typescanner": "0.5.3"
   },
   "homepage": "https://github.com/jill64/cognito-passwordless#readme",
   "bugs": "https://github.com/jill64/cognito-passwordless/issues",
