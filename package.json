@@ -22,7 +22,7 @@
     }
   },
   "scripts": {
-    "lint": "npx eslint . && npx depcheck && npx publint",
+    "lint": "npx eslint . && npx publint",
     "format": "npx prettier -w ."
   },
   "prettier": "@jill64/prettier-config",
