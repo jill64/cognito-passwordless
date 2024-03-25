@@ -166,7 +166,7 @@ export class CognitoPasswordlessClient {
         MessageAction: 'SUPPRESS'
       })
     )
-    return await this.send_email(email)
+    return await this.sendEmail(email)
   }
 
   async existsUser(email: string) {
@@ -186,7 +186,7 @@ export class CognitoPasswordlessClient {
     }
   }
 
-  private async send_email(email: string) {
+  async sendEmail(email: string) {
     const { ChallengeName, Session } = await this.cognito.send(
       new AdminInitiateAuthCommand({
         AuthFlow: 'CUSTOM_AUTH',
