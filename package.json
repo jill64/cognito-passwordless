@@ -1,0 +1,64 @@
+{
+  "name": "cognito-passwordless",
+  "description": "🔑 Passwordless authentication for AWS Cognito",
+  "version": "0.0.1",
+  "type": "module",
+  "main": "src/index.ts",
+  "files": [
+    "src"
+  ],
+  "exports": {
+    "./frontend": {
+      "types": "./src/frontend/index.ts",
+      "default": "./src/frontend/index.ts"
+    },
+    "./backend": {
+      "types": "./src/backend/index.ts",
+      "default": "./src/backend/index.ts"
+    },
+    ".": {
+      "types": "./src/index.ts",
+      "default": "./src/index.ts"
+    }
+  },
+  "scripts": {
+    "lint": "npx eslint . && npx publint",
+    "format": "npx prettier -w ."
+  },
+  "prettier": "@jill64/prettier-config",
+  "devDependencies": {
+    "@jill64/eslint-config-ts": "1.1.13",
+    "@jill64/prettier-config": "1.0.0",
+    "typescript": "5.4.3"
+  },
+  "dependencies": {
+    "@aws-sdk/client-cognito-identity-provider": "3.540.0",
+    "@aws-sdk/client-ses": "^3.540.0",
+    "@jill64/attempt": "1.1.2",
+    "@types/cookie": "0.6.0",
+    "@types/node": "20.11.30",
+    "aws-cdk-lib": "^2.133.0",
+    "constructs": "^10.3.0",
+    "nanoid": "^5.0.6",
+    "typescanner": "^0.5.3"
+  },
+  "homepage": "https://github.com/jill64/cognito-passwordless#readme",
+  "bugs": "https://github.com/jill64/cognito-passwordless/issues",
+  "author": {
+    "name": "jill64",
+    "email": "intents.turrets0h@icloud.com",
+    "url": "https://github.com/jill64",
+    "image": "https://avatars.githubusercontent.com/u/143883742?v=4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jill64/cognito-passwordless.git",
+    "image": "https://opengraph.githubassets.com/fbe431c9a7dc6d47988b0e036076d4f980ead89c1314b922636b27a2124d7d71/jill64/cognito-passwordless"
+  },
+  "keywords": [
+    "aws",
+    "cdk",
+    "cognito",
+    "passwordless"
+  ]
+}
