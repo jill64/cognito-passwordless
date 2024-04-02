@@ -1,7 +1,7 @@
 {
   "name": "@jill64/cognito-passwordless",
   "description": "🔑 Passwordless authentication for AWS Cognito",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "type": "module",
   "main": "src/index.ts",
   "files": [
@@ -36,7 +36,7 @@
     "@aws-sdk/client-ses": "3.540.0",
     "@jill64/attempt": "1.1.2",
     "@types/cookie": "0.6.0",
-    "@types/node": "20.12.2",
+    "@types/node": "20.12.3",
     "aws-cdk-lib": "2.135.0",
     "constructs": "10.3.0",
     "nanoid": "5.0.6",
