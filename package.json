@@ -27,7 +27,7 @@
   },
   "prettier": "@jill64/prettier-config",
   "devDependencies": {
-    "@jill64/eslint-config-ts": "1.1.18",
+    "@jill64/eslint-config-ts": "1.1.19",
     "@jill64/prettier-config": "1.0.0",
     "typescript": "5.4.5"
   },
@@ -46,7 +46,7 @@
   "bugs": "https://github.com/jill64/cognito-passwordless/issues",
   "author": {
     "name": "jill64",
-    "email": "intents.turrets0h@icloud.com",
+    "email": "contact@jill64.dev",
     "url": "https://github.com/jill64",
     "image": "https://avatars.githubusercontent.com/u/143883742?v=4"
   },
