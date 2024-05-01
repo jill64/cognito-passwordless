@@ -36,7 +36,7 @@
     "@aws-sdk/client-ses": "3.565.0",
     "@jill64/attempt": "1.1.2",
     "@types/cookie": "0.6.0",
-    "@types/node": "20.12.7",
+    "@types/node": "20.12.8",
     "aws-cdk-lib": "2.139.1",
     "constructs": "10.3.0",
     "nanoid": "5.0.7",
