@@ -53,7 +53,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/jill64/cognito-passwordless.git",
-    "image": "https://opengraph.githubassets.com/778f4b3cae770a3649c3f5cc978b3661b738cbc000118d32e6c104c15cc0b1b8/jill64/cognito-passwordless"
+    "image": "https://opengraph.githubassets.com/d382118fc1855b1f5aec65801fed83e5b78c0ccdc99c8d735e65bbf2c8078d0c/jill64/cognito-passwordless"
   },
   "keywords": [
     "aws",
