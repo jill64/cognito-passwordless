@@ -74,8 +74,8 @@ export class CognitoPasswordlessServer {
 
     const key = latest
       ? latest.challengeMetadata
-      : this.createCode?.() ??
-        customAlphabet('23456789ABCDEFGHJKLMNPQRSTUVWXYZ')(8)
+      : (this.createCode?.() ??
+        customAlphabet('23456789ABCDEFGHJKLMNPQRSTUVWXYZ')(8))
 
     if (!latest) {
       event.response.challengeMetadata = key
