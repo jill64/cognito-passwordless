@@ -27,7 +27,7 @@
   },
   "prettier": "@jill64/prettier-config",
   "devDependencies": {
-    "@jill64/eslint-config-ts": "1.1.31",
+    "@jill64/eslint-config-ts": "1.1.32",
     "@jill64/prettier-config": "1.0.0",
     "typescript": "5.5.4"
   },
@@ -53,7 +53,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/jill64/cognito-passwordless.git",
-    "image": "https://opengraph.githubassets.com/94378f2eba8b727ff746be14889d17a37a4424567d7a4f1242d2311db00ab4fa/jill64/cognito-passwordless"
+    "image": "https://opengraph.githubassets.com/ce781f411ae98259614a48e242465fc1058e074754fdb7111553456fa0b0564a/jill64/cognito-passwordless"
   },
   "keywords": [
     "aws",
