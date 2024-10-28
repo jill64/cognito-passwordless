@@ -39,7 +39,7 @@
     "@types/node": "20.16.8",
     "aws-cdk-lib": "2.153.0",
     "constructs": "10.4.2",
-    "nanoid": "5.0.7",
+    "nanoid": "5.0.8",
     "typescanner": "0.5.3"
   },
   "homepage": "https://github.com/jill64/cognito-passwordless#readme",
