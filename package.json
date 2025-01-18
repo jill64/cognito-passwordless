@@ -1,7 +1,7 @@
 {
   "name": "@jill64/cognito-passwordless",
   "description": "🔑 Passwordless authentication for AWS Cognito",
-  "version": "0.0.156",
+  "version": "0.0.157",
   "type": "module",
   "main": "src/index.ts",
   "files": [
