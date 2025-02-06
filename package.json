@@ -37,7 +37,7 @@
     "@jill64/attempt": "1.1.4",
     "@types/cookie": "1.0.0",
     "@types/node": "22.13.1",
-    "aws-cdk-lib": "2.177.0",
+    "aws-cdk-lib": "2.178.0",
     "constructs": "10.4.2",
     "nanoid": "5.0.9",
     "typescanner": "0.5.3"
