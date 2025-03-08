@@ -1,7 +1,7 @@
 {
   "name": "@jill64/cognito-passwordless",
   "description": "🔑 Passwordless authentication for AWS Cognito",
-  "version": "0.0.183",
+  "version": "0.0.184",
   "type": "module",
   "main": "src/index.ts",
   "files": [
@@ -36,7 +36,7 @@
     "@aws-sdk/client-ses": "3.738.0",
     "@jill64/attempt": "1.1.4",
     "@types/cookie": "1.0.0",
-    "@types/node": "22.13.9",
+    "@types/node": "22.13.10",
     "aws-cdk-lib": "2.182.0",
     "constructs": "10.4.2",
     "nanoid": "5.1.3",
@@ -53,7 +53,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jill64/cognito-passwordless.git",
-    "image": "https://opengraph.githubassets.com/4a30a43541584fa0e9a88778b7665f25a85435312124fea9a882074cc33d88da/jill64/cognito-passwordless"
+    "image": "https://opengraph.githubassets.com/08146d5087d1471d298207cb78458c25375ef9c7f677646ed878165680e23d44/jill64/cognito-passwordless"
   },
   "keywords": [
     "aws",
