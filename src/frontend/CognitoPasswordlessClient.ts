@@ -10,7 +10,7 @@ import {
   type AuthenticationResultType
 } from '@aws-sdk/client-cognito-identity-provider'
 import { attempt } from '@jill64/attempt'
-import { CookieSerializeOptions } from 'cookie'
+import { SerializeOptions } from 'cookie'
 import crypto from 'node:crypto'
 import { scanner, string } from 'typescanner'
 
@@ -36,13 +36,13 @@ export class CognitoPasswordlessClient {
       set: (
         name: string,
         value: string,
-        options: CookieSerializeOptions & {
+        options: SerializeOptions & {
           path: string
         }
       ) => void
       delete: (
         name: string,
-        options: CookieSerializeOptions & {
+        options: SerializeOptions & {
           path: string
         }
       ) => void

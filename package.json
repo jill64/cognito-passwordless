@@ -1,7 +1,7 @@
 {
   "name": "@jill64/cognito-passwordless",
   "description": "🔑 Passwordless authentication for AWS Cognito",
-  "version": "0.0.185",
+  "version": "0.0.186",
   "type": "module",
   "main": "src/index.ts",
   "files": [
@@ -22,8 +22,8 @@
     }
   },
   "scripts": {
-    "lint": "npx eslint . && npx publint",
-    "format": "npx prettier -w ."
+    "lint": "eslint . && bunx publint",
+    "format": "bunx prettier -w ."
   },
   "prettier": "@jill64/prettier-config",
   "devDependencies": {
@@ -36,11 +36,11 @@
     "@aws-sdk/client-ses": "3.738.0",
     "@jill64/attempt": "1.1.5",
     "@types/cookie": "1.0.0",
-    "@types/node": "22.13.10",
     "aws-cdk-lib": "2.182.0",
     "constructs": "10.4.2",
     "nanoid": "5.1.3",
-    "typescanner": "0.5.3"
+    "typescanner": "0.5.3",
+    "eslint": "9.22.0"
   },
   "homepage": "https://github.com/jill64/cognito-passwordless#readme",
   "bugs": "https://github.com/jill64/cognito-passwordless/issues",
@@ -53,7 +53,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jill64/cognito-passwordless.git",
-    "image": "https://opengraph.githubassets.com/cb8cf8c06bbd3dd7ed620661370d13b01dfcabb53b07101fdc20745e83067e97/jill64/cognito-passwordless"
+    "image": "https://opengraph.githubassets.com/f8c3442404cdaed12457547a011923200493a9eaa12d475ec06a4965cce2425d/jill64/cognito-passwordless"
   },
   "keywords": [
     "aws",
