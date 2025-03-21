@@ -40,7 +40,7 @@
     "constructs": "10.4.2",
     "nanoid": "5.1.5",
     "typescanner": "0.5.3",
-    "eslint": "9.22.0"
+    "eslint": "9.23.0"
   },
   "homepage": "https://github.com/jill64/cognito-passwordless#readme",
   "bugs": "https://github.com/jill64/cognito-passwordless/issues",
