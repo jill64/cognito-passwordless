@@ -34,7 +34,7 @@
   "dependencies": {
     "@aws-sdk/client-cognito-identity-provider": "3.777.0",
     "@aws-sdk/client-ses": "3.777.0",
-    "@jill64/attempt": "1.1.6",
+    "@jill64/attempt": "1.1.7",
     "@types/cookie": "1.0.0",
     "aws-cdk-lib": "2.186.0",
     "constructs": "10.4.2",
