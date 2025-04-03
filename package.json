@@ -32,8 +32,8 @@
     "typescript": "5.8.2"
   },
   "dependencies": {
-    "@aws-sdk/client-cognito-identity-provider": "3.777.0",
-    "@aws-sdk/client-ses": "3.777.0",
+    "@aws-sdk/client-cognito-identity-provider": "3.782.0",
+    "@aws-sdk/client-ses": "3.782.0",
     "@jill64/attempt": "1.1.7",
     "@types/cookie": "1.0.0",
     "aws-cdk-lib": "2.187.0",
