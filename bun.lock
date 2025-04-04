@@ -6,7 +6,7 @@
       "dependencies": {
         "@aws-sdk/client-cognito-identity-provider": "3.782.0",
         "@aws-sdk/client-ses": "3.782.0",
-        "@jill64/attempt": "1.1.7",
+        "@jill64/attempt": "1.1.8",
         "@types/cookie": "1.0.0",
         "aws-cdk-lib": "2.188.0",
         "constructs": "10.4.2",
@@ -110,7 +110,7 @@
 
     "@humanwhocodes/retry": ["@humanwhocodes/retry@0.4.2", "", {}, "sha512-xeO57FpIu4p1Ri3Jq/EXq4ClRm86dVF2z/+kvFnyqVYRavTZmaFaUBbWCOuuTh0o/g7DSsk6kc2vrS4Vl5oPOQ=="],
 
-    "@jill64/attempt": ["@jill64/attempt@1.1.7", "", {}, "sha512-HDz3LqYilpuGx91lOQszQyngBULshdq5m3rO3uvCLI7SpM5He8kJmrdK3DzkdkBwdhiZk9PbkkTko0Dvd4nFbQ=="],
+    "@jill64/attempt": ["@jill64/attempt@1.1.8", "", {}, "sha512-fAN+ZiwGTtXjS2cAYA9pyH6Dtyc5Eb6VFwJB9g2FYNy7J3HcaaA9IP9imoKdTDq/LE71/fAc7f9XyiRPThRCJQ=="],
 
     "@jill64/eslint-config-ts": ["@jill64/eslint-config-ts@2.0.19", "", { "dependencies": { "@eslint/js": "9.23.0", "@types/eslint": "9.6.1", "@types/eslint-config-prettier": "6.11.3", "@typescript-eslint/eslint-plugin": "8.27.0", "@typescript-eslint/parser": "8.27.0", "eslint": "9.23.0", "eslint-config-prettier": "10.1.1" } }, "sha512-WTn6mw3Iqu3JTyNoOJAzJvsrhox8gF6w0huG0rXQNahraHFqBdX+SvH7dfXnZfYMxqrWBme/TaGnYyQ6DHz0rA=="],
 
